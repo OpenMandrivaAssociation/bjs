@@ -50,3 +50,10 @@ sed -i 's|ActionGame|ArcadeGame|g' misc/bjs.desktop
 %{_datadir}/applications/*.desktop
 %{_gamesdatadir}/%{name}
 
+
+
+%changelog
+* Sun Mar 25 2012 Andrey Bondrov <abondrov@mandriva.org> 0.1.3-1
++ Revision: 786669
+- imported package bjs
+
