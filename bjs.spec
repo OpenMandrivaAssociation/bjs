@@ -1,6 +1,6 @@
 Name:		bjs
 Version:	0.1.3
-Release:	%mkrel 1
+Release:	2
 Summary:	3D tank battle game
 License:	GPLv2
 Group:		Games/Arcade
@@ -17,6 +17,7 @@ BuildRequires:	pkgconfig(lua)
 BuildRequires:	pkgconfig(omniORB4)
 BuildRequires:	python-omniidl
 BuildRequires:	openal-devel
+BuildRequires:	omniorb
 
 %description
 BJS is a funny arcade 3D multiplayer tank battle. It is fuly playable and
@@ -36,11 +37,7 @@ sed -i 's|ActionGame|ArcadeGame|g' misc/bjs.desktop
 %make
 
 %install
-%__rm -rf %{buildroot}
 %__make install DESTDIR=%{buildroot}/usr
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %doc NEWS
@@ -56,4 +53,3 @@ sed -i 's|ActionGame|ArcadeGame|g' misc/bjs.desktop
 * Sun Mar 25 2012 Andrey Bondrov <abondrov@mandriva.org> 0.1.3-1
 + Revision: 786669
 - imported package bjs
-
