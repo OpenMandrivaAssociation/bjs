@@ -1,6 +1,6 @@
 Name:		bjs
 Version:	0.1.3
-Release:	2
+Release:	3
 Summary:	3D tank battle game
 License:	GPLv2
 Group:		Games/Arcade
