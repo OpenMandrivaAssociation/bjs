@@ -4,7 +4,7 @@ Release:	3
 Summary:	3D tank battle game
 License:	GPLv2
 Group:		Games/Arcade
-Url:		http://bjs.sourceforge.net/
+Url:		https://bjs.sourceforge.net/
 Source:		http://sourceforge.net/projects/bjs/files/%{name}/%{name}-%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	CEGUI0.6-devel
 BuildRequires:	zlib-devel
